@@ -1,0 +1,21 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "Stmt1481662655000",
+            "Effect": "Allow",
+            "Action": [
+                "autoscaling:AttachLoadbalancers",
+                "autoscaling:CreateAutoScalingGroup",
+                "autoscaling:DescribeAutoScalingGroups",
+                "elasticloadbalancing:DescribeInstanceHealth",
+                "autoscaling:UpdateAutoScalingGroup",
+                "autoscaling:DetachLoadbalancers",
+                "autoscaling:DeleteAutoScalingGroup"
+            ],
+            "Resource": [
+                "*"
+            ]
+        }
+    ]
+}
