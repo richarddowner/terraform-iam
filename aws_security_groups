@@ -11,7 +11,10 @@
                 "ec2:RevokeSecurityGroupEgress",
                 "ec2:RevokeSecurityGroupIngress",
                 "ec2:DescribeSecurityGroups",
-                "ec2:DeleteSecurityGroup"
+                "ec2:DeleteSecurityGroup",
+                "ec2:DescribeNetworkInterfaces",
+                "ec2:DetachNetworkInterface",
+                "ec2:DeleteNetworkInterface"
             ],
             "Resource": [
                 "*"
