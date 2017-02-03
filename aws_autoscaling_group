@@ -11,7 +11,8 @@
                 "elasticloadbalancing:DescribeInstanceHealth",
                 "autoscaling:UpdateAutoScalingGroup",
                 "autoscaling:DetachLoadbalancers",
-                "autoscaling:DeleteAutoScalingGroup"
+                "autoscaling:DeleteAutoScalingGroup",
+                "autoscaling:DescribeLaunchConfigurations"
             ],
             "Resource": [
                 "*"
